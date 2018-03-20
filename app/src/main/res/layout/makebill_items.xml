@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/myCardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/makebillitemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Marvo Keyboard"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/makebillitemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/LKRview"
+            android:layout_alignBottom="@+id/LKRview"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_toLeftOf="@+id/LKRview"
+            android:layout_toStartOf="@+id/LKRview"
+            android:text="Price - 2500 LKR"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/removeItem"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:background="@drawable/ic_remove_circle_black_24dp" />
+
+        <TextView
+            android:id="@+id/LKRview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/makebillitemName"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/makebillitemName"
+            android:text="LKR"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/QTY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_toLeftOf="@+id/Add"
+            android:layout_toStartOf="@+id/Add"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

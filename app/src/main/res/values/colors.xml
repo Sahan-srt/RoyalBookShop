@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#692137</color>
+    <color name="colorPrimaryDark">#5F142B</color>
+    <color name="colorAccent">#25020D</color>
+    <color name="colorBlue">#59a1e8</color>
+    <color name="TEXT_COLOR">#FFFFFF</color>
+    <color name="NewColorForBill">#cf79f4</color>
+    <color name="cardViewmainmenu">#b4cbf9</color>
+    <color name="black">#000000</color>
+    <color name="additem">#02013e</color>
+    <color name="cardview_main">#e0000000</color>
+
+
+</resources>

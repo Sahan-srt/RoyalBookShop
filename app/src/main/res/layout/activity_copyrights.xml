@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ithub.iinventory.CopyrightsActivity">
+
+    <include
+        android:id="@+id/reg_toolbar"
+        layout="@layout/app_bar_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="669dp"
+        android:layout_marginEnd="940dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="184dp"
+                android:layout_height="183dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="88dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.061"
+                app:srcCompat="@drawable/logomain" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="277dp"
+                android:layout_height="94dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="340dp"
+                android:fontFamily="@font/advent_pro"
+                android:text="i Inventory"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="60sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="496dp"
+        android:layout_height="62dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="88dp"
+        android:fontFamily="@font/advent_pro"
+        android:text="Developer : iMobile Hub NSBM"
+        android:textColor="#747474"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="506dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/advent_pro"
+        android:text="Address : NSBM , Homagama"
+        android:textColor="#747474"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="525dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/advent_pro"
+        android:text="Contact Us : +94711091499"
+        android:textColor="#747474"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:autoLink="phone"
+        android:linksClickable="true"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="488dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:autoLink="email"
+        android:fontFamily="@font/advent_pro"
+        android:linksClickable="true"
+        android:text="Email Us : hello@smartvalley.lk"
+        android:textColor="#747474"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="823dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/advent_pro"
+        android:text="©2018 Copyrights iMobileHub Mobile Development Team NSBM"
+        android:textColor="#474747"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="59dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/copyrights1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/copyrights2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="59dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:srcCompat="@drawable/copyrights3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="59dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/copyrights4" />
+
+    <Button
+        android:id="@+id/callUs"
+        android:layout_width="232dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="492dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawableLeft="@drawable/call_us"
+        android:text="Contact Us"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/emailUs"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/emailUs"
+        android:layout_width="232dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:drawableLeft="@drawable/email_us"
+        android:text="Email Us"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>

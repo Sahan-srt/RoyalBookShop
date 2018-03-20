@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "877265249458",
+    "firebase_url": "https://royalbookshop-e6e3b.firebaseio.com",
+    "project_id": "royalbookshop-e6e3b",
+    "storage_bucket": "royalbookshop-e6e3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877265249458:android:81fce870b8eabb9b",
+        "android_client_info": {
+          "package_name": "com.example.sahanridma.royalbookshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877265249458-3fd1sqm9tdc9mbpofjik4unc1p4opalt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahanridma.royalbookshop",
+            "certificate_hash": "5c731c8d792a550f82fac6f7fcc5533d6f848f06"
+          }
+        },
+        {
+          "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNcOrhaL0QC9Fz5FTcT-cARmWGwJrgXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877265249458:android:7ff010a587a9962b",
+        "android_client_info": {
+          "package_name": "com.example.sahanridma.royalbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877265249458-mgqojmamtm46iv0sbojpadohjlvm5j80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahanridma.royalbs",
+            "certificate_hash": "5c731c8d792a550f82fac6f7fcc5533d6f848f06"
+          }
+        },
+        {
+          "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNcOrhaL0QC9Fz5FTcT-cARmWGwJrgXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877265249458:android:c59ab64677388fbf",
+        "android_client_info": {
+          "package_name": "com.example.sahanridma.rbs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877265249458-kc8tp5fu2mc5ivehq30ugsh3u2cf4ptq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sahanridma.rbs",
+            "certificate_hash": "5c731c8d792a550f82fac6f7fcc5533d6f848f06"
+          }
+        },
+        {
+          "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNcOrhaL0QC9Fz5FTcT-cARmWGwJrgXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877265249458:android:d2272fb61c3e0521",
+        "android_client_info": {
+          "package_name": "shopapp.royal.royalbookshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877265249458-l6k33qmhi2ht8b0l4oahkshej6n3fl2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopapp.royal.royalbookshop",
+            "certificate_hash": "5c731c8d792a550f82fac6f7fcc5533d6f848f06"
+          }
+        },
+        {
+          "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuNcOrhaL0QC9Fz5FTcT-cARmWGwJrgXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877265249458-f6n15rrk46mm9dvbr5k7l3o8kp4ibts2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
