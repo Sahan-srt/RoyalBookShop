@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardview_main"
+    android:background="@color/cardViewmainmenu"
     tools:context="shopapp.royal.royalbookshop.MainActivity">
 
     <include
@@ -316,7 +316,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/black"
+            android:background="@color/colorPrimaryDark"
             >
 
 
@@ -428,10 +428,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cardView3"
-        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.207">
+        app:layout_constraintVertical_bias="0.168">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
