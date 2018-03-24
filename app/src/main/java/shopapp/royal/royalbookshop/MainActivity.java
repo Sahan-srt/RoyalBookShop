@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private android.support.v7.widget.Toolbar mToolbar;
 
 
-    private Button  mMakeBill , mAllItems ,mChatBtn;
+
 
     private DatabaseReference usersReference;
 
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseUser mCurrentUser;
 
-    private CardView mCardview1,mainAddItem;
+    private CardView mCardview1,mainAddItem,mMakeBill, mAllItems ,mChatBtn;
     private CardView mCardView2;
     private  String Rid,Totalsale;
     String loggedUserName;
@@ -98,32 +98,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Calendar calendar = Calendar.getInstance();
+     /*   Calendar calendar = Calendar.getInstance();
         String currentDate = DateFormat.getDateInstance().format(calendar.getTime());
-
-        TextView dateView = (TextView) findViewById(R.id.dateView);
+*/
+       /* TextView dateView = (TextView) findViewById(R.id.dateView);
         dateView.setText(currentDate);
-
+*/
 
         mAuth = FirebaseAuth.getInstance();
         Btotal=0;
 
         mToolbar = (Toolbar) findViewById(R.id.main_page_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("i Inventory");
+        getSupportActionBar().setTitle("Royal BookShop");
 
         mainAddItem = (CardView) findViewById(R.id.mainAddItem);
-        mMakeBill = (Button) findViewById(R.id.mainMakeBill);
-        mAllItems = (Button) findViewById(R.id.mainAllItem);
-        mChatBtn = (Button) findViewById(R.id.chatButton);
+        mMakeBill = (CardView) findViewById(R.id.mainMakeBill);
+        mAllItems = (CardView) findViewById(R.id.mainAllItem);
+        mChatBtn = (CardView) findViewById(R.id.chatButton);
         mUserName = (TextView) findViewById(R.id.loggedUser);
         mCardview1 = (CardView) findViewById(R.id.cardView);
-        mCardView2 = (CardView) findViewById(R.id.cardView2);
+       // mCardView2 = (CardView) findViewById(R.id.cardView2);
 
         mCurrentUser = mAuth.getCurrentUser();
         lastsaleview = (TextView) findViewById(R.id.lastSale);
-        allsaleview = (TextView) findViewById(R.id.allsaleview);
-        allsales = (TextView) findViewById(R.id.allsales);
+     //   allsaleview = (TextView) findViewById(R.id.allsaleview);
+     //   allsales = (TextView) findViewById(R.id.allsales);
         final FirebaseDatabase lastsale = FirebaseDatabase.getInstance();
 
         DatabaseReference billRef = lastsale.getReference();
@@ -314,7 +314,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mCardView2.setOnClickListener(new View.OnClickListener() {
+       /* mCardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent allSales = new Intent(MainActivity.this,AllSalesActivity.class);
@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
             ref.child(Rid).removeValue();
 
             Toast.makeText(this,"Item has been Deleted",Toast.LENGTH_SHORT).show();
-        }
+        }*/
 
 
 

@@ -9,7 +9,9 @@
     <color name="cardViewmainmenu">#f3ffbd</color>
     <color name="black">#000000</color>
     <color name="additem">#02013e</color>
-    <color name="cardview_main">#e0000000</color>
+    <color name="cardview_main">#e0000000</color>f8ffdd
+    <color name="lightyellow">#f3ffbd</color>
+    <color name="latestbillcart">#0b8355</color>
 
 
 </resources>
