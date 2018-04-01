@@ -47,7 +47,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
             mRemoveButton = itemView.findViewById(R.id.removeItem);
             //additem = itemView.findViewById(R.id.Add);
             //minusitem = itemView.findViewById(R.id.Minus);
-            QTY = itemView.findViewById(R.id.QTY);
+         QTY = itemView.findViewById(R.id.QTY);
 
 
 

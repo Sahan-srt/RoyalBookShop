@@ -62,10 +62,6 @@
             android:parentActivityName=".MainActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".AllSalesActivity"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="landscape" />
-        <activity
             android:name=".CustomLayout"
             android:parentActivityName=".MakeBillActivity"
             android:screenOrientation="landscape" />

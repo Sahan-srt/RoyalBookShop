@@ -204,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-            final Query allsaledisplay = billRef.child("Bills").orderByChild("Uid").equalTo(user);
+           /* final Query allsaledisplay = billRef.child("Bills").orderByChild("Uid").equalTo(user);
 
             allsaledisplay.addValueEventListener(new ValueEventListener() {
                 @Override
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onCancelled(DatabaseError databaseError) {
 
                 }
-            });
+            });*/
 
 
     }
@@ -314,7 +314,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-       /* mCardView2.setOnClickListener(new View.OnClickListener() {
+    /*    mCardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent allSales = new Intent(MainActivity.this,AllSalesActivity.class);
@@ -322,7 +322,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+*/
 
         FirebaseDatabase dbnew=FirebaseDatabase.getInstance();
         DatabaseReference ref=dbnew.getReference("Items");
@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
             ref.child(Rid).removeValue();
 
             Toast.makeText(this,"Item has been Deleted",Toast.LENGTH_SHORT).show();
-        }*/
+        }
 
 
 

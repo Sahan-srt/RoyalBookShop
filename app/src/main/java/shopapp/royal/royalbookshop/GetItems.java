@@ -1,7 +1,7 @@
 package shopapp.royal.royalbookshop;
 
 /**
- * Created by Akila Devinda on 2/2/2018.
+ * Created by Sahan Ridma on 2/2/2018.
  */
 
 public class GetItems {
