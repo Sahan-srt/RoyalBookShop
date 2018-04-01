@@ -160,7 +160,7 @@ public class itemsmakebill extends RecyclerView.Adapter<itemsmakebill.SearchView
 
     @Override
     public SearchViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.bill_items, parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.bill_items2, parent,false);
         return new SearchViewHolder(view,context,itemnamelist,itempricelist,itemid);
     }
 

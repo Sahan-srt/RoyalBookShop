@@ -32,17 +32,6 @@
             android:text="Price : 110/="
             android:textSize="15sp" />
 
-        <Button
-            android:id="@+id/removeItem"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="21dp"
-            android:layout_marginRight="21dp"
-            android:background="@drawable/ic_remove_circle_black_24dp" />
-
         <TextView
             android:id="@+id/LKRview"
             android:layout_width="wrap_content"

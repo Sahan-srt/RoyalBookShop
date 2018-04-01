@@ -6,12 +6,14 @@
     <color name="colorBlue">#59a1e8</color>
     <color name="TEXT_COLOR">#FFFFFF</color>
     <color name="NewColorForBill">#cf79f4</color>
-    <color name="cardViewmainmenu">#f3ffbd</color>
+    <color name="cardViewmainmenu">#fcffee</color>
     <color name="black">#000000</color>
     <color name="additem">#02013e</color>
     <color name="cardview_main">#e0000000</color>f8ffdd
     <color name="lightyellow">#f3ffbd</color>
     <color name="latestbillcart">#0b8355</color>
+    <color name="billcardviewcolor">#9fa0a8</color>
+    <color name="login">#2c2d57</color>
 
 
 </resources>

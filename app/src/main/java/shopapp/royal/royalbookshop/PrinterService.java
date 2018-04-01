@@ -71,7 +71,7 @@ public class PrinterService extends AppCompatActivity {
         connectButton = (Button) findViewById(R.id.connectBtn);
         sendButton = (Button) findViewById(R.id.sendBtn);
         disconnectButton = (Button) findViewById(R.id.disconnectBtn);
-        makeNewBill = (Button)findViewById(R.id.makeNewBillbtn);
+
         backToHome =(Button)findViewById(R.id.goHomeBtn);
 
         // text label and input box
@@ -91,18 +91,8 @@ public class PrinterService extends AppCompatActivity {
             }
         });
 
-        //go to new bill
-        makeNewBill.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent makeNewBill = new Intent(PrinterService.this,MakeBillActivity.class);
-                startActivity(makeNewBill);
-                MakeBillActivity billObj = new MakeBillActivity();
-                billObj.setSum(0);
-                BillingItems.billItemArray.clear();
-                finish();
-            }
-        });
+
+
 
         // open bluetooth connection
         connectButton.setOnClickListener(new View.OnClickListener() {

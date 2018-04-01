@@ -19,9 +19,7 @@ import com.google.firebase.database.Query;
 
 import java.util.ArrayList;
 
-/**
- * Created by Akila Devinda on 1/31/2018.
- */
+
 
 public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleViewHolder> {
     Context context;

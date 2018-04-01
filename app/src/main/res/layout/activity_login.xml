@@ -25,7 +25,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="152dp"
         android:background="@drawable/buttonshape"
-        android:backgroundTint="#ed5959"
+        android:backgroundTint="@color/login"
         android:text="Log In"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="18sp"

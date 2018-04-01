@@ -96,7 +96,7 @@
         android:drawableLeft="@drawable/itemprice"
         android:drawablePadding="10dp"
         android:ems="10"
-        android:hint="Price Per Unit - LKR"
+        android:hint="Unit Price"
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
