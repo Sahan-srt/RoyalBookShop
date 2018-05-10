@@ -201,5 +201,16 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp" />
 
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="1400dp"
+        android:layout_height="526dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b1" />
+
 
 </android.support.constraint.ConstraintLayout>

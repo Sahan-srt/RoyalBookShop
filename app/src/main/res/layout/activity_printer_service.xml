@@ -13,14 +13,14 @@
         android:layout_height="60dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="572dp"
         android:background="@drawable/buttonshape"
         android:backgroundTint="@color/colorPrimary"
         android:text="Connect"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.037"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,33 +30,33 @@
         android:layout_height="56dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="572dp"
         android:background="@drawable/buttonshape"
         android:backgroundTint="@color/colorPrimary"
         android:text="Disconnect"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.694"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/connectBtn" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/sendBtn"
         android:layout_width="230dp"
-        android:layout_height="55dp"
+        android:layout_height="59dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="572dp"
         android:background="@drawable/buttonshape"
         android:backgroundTint="@color/colorPrimary"
         android:text="Print"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.371"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/disconnectBtn" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <Button
@@ -65,14 +65,14 @@
         android:layout_height="56dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="572dp"
         android:background="@drawable/buttonshape"
         android:backgroundTint="#e3af2c"
         android:text="Back to Home"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.98"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -85,7 +85,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="108dp"
         android:ems="10"
-        android:text="Model Number:"
+        android:text="Search Device"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.353"
@@ -100,7 +100,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="108dp"
         android:ems="10"
-        android:hint="Enter model number of device"
+        android:hint="Enter model No of device"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.626"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,6 +120,17 @@
         app:layout_constraintHorizontal_bias="0.632"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/modelNumbEdit" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="1164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="408dp"
+        android:src="@drawable/b1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

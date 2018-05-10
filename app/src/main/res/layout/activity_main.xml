@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cardViewmainmenu"
+
     tools:context="shopapp.royal.royalbookshop.MainActivity">
 
     <include
@@ -230,7 +230,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="444dp"
         android:layout_marginTop="8dp"
-        app:cardBackgroundColor="@color/cardViewmainmenu"
+        app:cardBackgroundColor="#FFDF00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -320,7 +320,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="656dp"
         android:layout_marginTop="8dp"
-        app:cardBackgroundColor="@color/cardViewmainmenu"
+        app:cardBackgroundColor="#00BFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -375,7 +375,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="444dp"
         android:layout_marginTop="8dp"
-        app:cardBackgroundColor="@color/cardViewmainmenu"
+        app:cardBackgroundColor="#E9967A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -385,7 +385,6 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
 
 
         </android.support.constraint.ConstraintLayout>
@@ -435,7 +434,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="656dp"
         android:layout_marginTop="8dp"
-        app:cardBackgroundColor="@color/cardViewmainmenu"
+        app:cardBackgroundColor="#9ACD32"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -445,8 +444,6 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-
 
 
         </android.support.constraint.ConstraintLayout>
@@ -566,6 +563,15 @@
             android:textSize="24sp" />
 
     </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="1491dp"
+        android:layout_height="547dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/b1" />
 
 
 </android.support.constraint.ConstraintLayout>
